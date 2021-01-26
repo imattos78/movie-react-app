@@ -1,4 +1,5 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
+import MovieList from './components/movieList';
 
 const App = () =>{
 const [movies, setMovies] = useState([
@@ -73,7 +74,9 @@ const [movies, setMovies] = useState([
     "Poster": "https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX300.jpg"
 }
 ])
-  return <div>Hello World!!</div>
+  return <div>
+    <MovieList movies={movies} />
+  </div>
 
 };
 
