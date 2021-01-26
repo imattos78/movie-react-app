@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import MovieList from './components/movieList';
 import MovieListHeading from './components/movieListHeading';
+import SearchBox from './components/searchBox';
 
 
 const App = () =>{
@@ -26,8 +27,9 @@ useEffect(()=>{
 
   return ( 
   <div className='container-fluid movie-app'>
-    <div className='row'>
+    <div className='row d-flex align-items-center mt-4 mb-4'>
       <MovieListHeading heading='Movies' />
+      <SearchBox searchValue={searchValue} setSearchValue={setSearchValue}/>
     </div>
     <div className='row'>
       <MovieList movies={movies} />
