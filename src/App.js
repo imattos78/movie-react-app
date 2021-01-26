@@ -1,5 +1,8 @@
 import React, {useState} from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 import MovieList from './components/movieList';
+
 
 const App = () =>{
 const [movies, setMovies] = useState([
@@ -74,9 +77,11 @@ const [movies, setMovies] = useState([
     "Poster": "https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX300.jpg"
 }
 ])
-  return <div>
+  return ( 
+  <div className='container-fluid'>
+  <div className='row'>
     <MovieList movies={movies} />
-  </div>
+  </div></div> )
 
 };
 
