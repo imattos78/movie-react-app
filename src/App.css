@@ -2,3 +2,9 @@ body {
   background: #141414;
   color: #ffffff;
 }
+
+/* All the rows inside the movie app class in order to display all the pic in the same row and scroll over them*/
+.movie-app > .row {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
