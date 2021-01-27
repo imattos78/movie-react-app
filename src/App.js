@@ -4,6 +4,7 @@ import './App.css';
 import MovieList from './components/movieList';
 import MovieListHeading from './components/movieListHeading';
 import SearchBox from './components/searchBox';
+import AddFavorite from './components/addFavorites';
 
 
 const App = () =>{
@@ -40,7 +41,7 @@ useEffect(()=>{
       <SearchBox searchValue={searchValue} setSearchValue={setSearchValue}/>
     </div>
     <div className='row'>
-      <MovieList movies={movies} />
+      <MovieList movies={movies} favouriteComponent={AddFavorite}/>
     </div>
   </div> )
 
