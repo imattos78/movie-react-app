@@ -9,6 +9,7 @@ import AddFavorite from './components/addFavorites';
 
 const App = () =>{
 const [movies, setMovies] = useState([]);
+const [favourites, setFavourites] = useState([]);
 const [searchValue, setSearchValue] = useState('');
 
 const getMovieRequest =  async (searchValue) =>{
@@ -28,6 +29,10 @@ useEffect(()=>{
  
 }, [searchValue]);
 
+const addFavouriteMovie = (movie) =>{
+  const newFavouriteList = [...favourites, movie];
+  setFavourites(newFavouriteList);
+};
 
 // useEffect(()=>{
 //   getMovieRequest();
@@ -41,7 +46,11 @@ useEffect(()=>{
       <SearchBox searchValue={searchValue} setSearchValue={setSearchValue}/>
     </div>
     <div className='row'>
-      <MovieList movies={movies} favouriteComponent={AddFavorite}/>
+      <MovieList 
+        movies={movies} 
+        handleFavouriteClick = {addFavouriteMovie} 
+        favouriteComponent={AddFavorite}
+        />
     </div>
   </div> )
 
