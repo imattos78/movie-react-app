@@ -35,6 +35,13 @@ const addFavouriteMovie = (movie) =>{
   setFavourites(newFavouriteList);
 };
 
+const removeFavouriteMovie = (movie) =>{
+  const newFavouriteList = favourites.filter(
+    (favourite)=> favourite.imdbID !== movie.imdbID
+    );
+    setFavourites(newFavouriteList);
+}
+
 // useEffect(()=>{
 //   getMovieRequest();
 //   //Adding comma and an empty array in the next line, that mean to get the movie request when the page loads only
@@ -59,7 +66,7 @@ const addFavouriteMovie = (movie) =>{
     <div className='row'>
       <MovieList 
         movies={favourites} 
-        handleFavouriteClick = {addFavouriteMovie} 
+        handleFavouriteClick = {removeFavouriteMovie} 
         favouriteComponent={RemoveFavourites}
         />
     </div>
