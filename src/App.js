@@ -5,6 +5,7 @@ import MovieList from './components/movieList';
 import MovieListHeading from './components/movieListHeading';
 import SearchBox from './components/searchBox';
 import AddFavorite from './components/addFavorites';
+import RemoveFavourites from './components/removeFavourites';
 
 
 const App = () =>{
@@ -59,7 +60,7 @@ const addFavouriteMovie = (movie) =>{
       <MovieList 
         movies={favourites} 
         handleFavouriteClick = {addFavouriteMovie} 
-        favouriteComponent={AddFavorite}
+        favouriteComponent={RemoveFavourites}
         />
     </div>
   </div> )
