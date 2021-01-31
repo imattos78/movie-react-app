@@ -31,7 +31,7 @@ useEffect(()=>{
 }, [searchValue]);
 
 const saveToLocalStorage = (items) =>{
-  localStorage.setItem('react-movie-app-favourites', JSON.stringify('items'))
+  localStorage.setItem('react-movie-app-favourites', JSON.stringify(items))
 
 };
 
@@ -67,7 +67,9 @@ const removeFavouriteMovie = (movie) =>{
         />
     </div>
     <div className='row d-flex align-items-center mt-4 mb-4'>
-      <MovieListHeading heading='Favourites' />
+      <MovieListHeading 
+        heading='Favourites' 
+        />
     </div>
     <div className='row'>
       <MovieList 
