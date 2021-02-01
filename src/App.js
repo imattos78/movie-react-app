@@ -55,6 +55,7 @@ const removeFavouriteMovie = (movie) =>{
     (favourite)=> favourite.imdbID !== movie.imdbID
     );
     setFavourites(newFavouriteList);
+    saveToLocalStorage(newFavouriteList);
 }
 
 // useEffect(()=>{
