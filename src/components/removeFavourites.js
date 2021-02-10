@@ -8,7 +8,7 @@ const RemoveFavourites = () =>{
             width="16" 
             height="16" 
             fill="currentColor" 
-            class="bi bi-x-square" 
+            className="bi bi-x-square" 
             viewBox="0 0 16 16"
             xmlns="http://www.w3.org/2000/svg" 
             >
