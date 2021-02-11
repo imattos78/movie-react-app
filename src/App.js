@@ -71,7 +71,7 @@ const removeFavouriteMovie = (movie) =>{
     </div>
     <div className='row'>
       <MovieList 
-        movies={movies} 
+        movies={movies}
         handleFavouriteClick = {addFavouriteMovie} 
         favouriteComponent={AddFavorite}
         />
