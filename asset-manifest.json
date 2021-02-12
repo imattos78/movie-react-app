@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/imattos78/movie-react-app/static/css/main.85530145.chunk.css",
-    "main.js": "/imattos78/movie-react-app/static/js/main.bf132dad.chunk.js",
-    "main.js.map": "/imattos78/movie-react-app/static/js/main.bf132dad.chunk.js.map",
-    "runtime-main.js": "/imattos78/movie-react-app/static/js/runtime-main.d276e277.js",
-    "runtime-main.js.map": "/imattos78/movie-react-app/static/js/runtime-main.d276e277.js.map",
+    "main.js": "/imattos78/movie-react-app/static/js/main.f19a3664.chunk.js",
+    "main.js.map": "/imattos78/movie-react-app/static/js/main.f19a3664.chunk.js.map",
+    "runtime-main.js": "/imattos78/movie-react-app/static/js/runtime-main.b7c5f6f7.js",
+    "runtime-main.js.map": "/imattos78/movie-react-app/static/js/runtime-main.b7c5f6f7.js.map",
     "static/css/2.150d169a.chunk.css": "/imattos78/movie-react-app/static/css/2.150d169a.chunk.css",
-    "static/js/2.e5ed9678.chunk.js": "/imattos78/movie-react-app/static/js/2.e5ed9678.chunk.js",
-    "static/js/2.e5ed9678.chunk.js.map": "/imattos78/movie-react-app/static/js/2.e5ed9678.chunk.js.map",
-    "static/js/3.0c39b056.chunk.js": "/imattos78/movie-react-app/static/js/3.0c39b056.chunk.js",
-    "static/js/3.0c39b056.chunk.js.map": "/imattos78/movie-react-app/static/js/3.0c39b056.chunk.js.map",
+    "static/js/2.a5d51610.chunk.js": "/imattos78/movie-react-app/static/js/2.a5d51610.chunk.js",
+    "static/js/2.a5d51610.chunk.js.map": "/imattos78/movie-react-app/static/js/2.a5d51610.chunk.js.map",
+    "static/js/3.bdec3915.chunk.js": "/imattos78/movie-react-app/static/js/3.bdec3915.chunk.js",
+    "static/js/3.bdec3915.chunk.js.map": "/imattos78/movie-react-app/static/js/3.bdec3915.chunk.js.map",
     "index.html": "/imattos78/movie-react-app/index.html",
     "static/css/2.150d169a.chunk.css.map": "/imattos78/movie-react-app/static/css/2.150d169a.chunk.css.map",
     "static/css/main.85530145.chunk.css.map": "/imattos78/movie-react-app/static/css/main.85530145.chunk.css.map",
-    "static/js/2.e5ed9678.chunk.js.LICENSE.txt": "/imattos78/movie-react-app/static/js/2.e5ed9678.chunk.js.LICENSE.txt"
+    "static/js/2.a5d51610.chunk.js.LICENSE.txt": "/imattos78/movie-react-app/static/js/2.a5d51610.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d276e277.js",
+    "static/js/runtime-main.b7c5f6f7.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.e5ed9678.chunk.js",
+    "static/js/2.a5d51610.chunk.js",
     "static/css/main.85530145.chunk.css",
-    "static/js/main.bf132dad.chunk.js"
+    "static/js/main.f19a3664.chunk.js"
   ]
 }
