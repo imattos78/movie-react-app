@@ -13,6 +13,7 @@ const [movies, setMovies] = useState([]);
 const [favourites, setFavourites] = useState([]);
 const [searchValue, setSearchValue] = useState('');
 
+
 const getMovieRequest =  async (searchValue) =>{
   const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=c6f81af2`
 
@@ -62,6 +63,7 @@ const removeFavouriteMovie = (movie) =>{
 //   getMovieRequest();
 //   //Adding comma and an empty array in the next line, that mean to get the movie request when the page loads only
 // }, []);
+ 
 
   return ( 
   <div className='container-fluid movie-app'>
@@ -71,6 +73,7 @@ const removeFavouriteMovie = (movie) =>{
     </div>
     <div className='row'>
       <MovieList 
+        
         movies={movies}
         handleFavouriteClick = {addFavouriteMovie} 
         favouriteComponent={AddFavorite}
@@ -83,6 +86,7 @@ const removeFavouriteMovie = (movie) =>{
     </div>
     <div className='row'>
       <MovieList 
+        
         movies={favourites} 
         handleFavouriteClick = {removeFavouriteMovie} 
         favouriteComponent={RemoveFavourites}
