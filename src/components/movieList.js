@@ -7,7 +7,7 @@ const MovieList = (props) =>{
     const [htmlId] = useId();
 
     return (
-        <>
+        <div>
         {props.movies.map((movie, index)=> 
         // Adding style to make all the pics same size with a separation btw them
         <div className="image-container d-flex justify-content-start m-3">
@@ -19,7 +19,7 @@ const MovieList = (props) =>{
                 <FavouriteComponent />
             </div>
         </div>)}
-        </>
+        </div>
     )
 }
 export default MovieList;
