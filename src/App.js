@@ -73,6 +73,7 @@ const removeFavouriteMovie = (movie) =>{
     </div>
     <div className='row'>
       <MovieList 
+         
         movies={movies}
         handleFavouriteClick = {addFavouriteMovie} 
         favouriteComponent={AddFavorite}
@@ -85,7 +86,7 @@ const removeFavouriteMovie = (movie) =>{
     </div>
     <div className='row'>
       <MovieList 
-
+        
         movies={favourites} 
         handleFavouriteClick = {removeFavouriteMovie} 
         favouriteComponent={RemoveFavourites}
